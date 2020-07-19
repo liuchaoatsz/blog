@@ -1,5 +1,5 @@
 ---
-layout:default
+
 ---
 
 # Parcel From Uppsala Sweden 
