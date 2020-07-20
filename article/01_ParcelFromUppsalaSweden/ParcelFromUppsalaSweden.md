@@ -4,6 +4,7 @@
 
 
 # Parcel From Uppsala Sweden 
+[<<Home](../../index.md)
 
 Actually , I have received the evaluation kit on the afternoon of 17th July .It takes only three days from the Sweden to the China.The shipping&&delivery speed of the parcel surprised me . 
 
