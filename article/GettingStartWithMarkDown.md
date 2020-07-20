@@ -42,7 +42,7 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
   > - [ ] This is a incomplete item 
 
 ### ***link***
-- > url: \[Click here to visit google]\(www.google.com) => [Click here to visit google](www.google.com)
+- > url: \[Click here to visit github]\(www.github.com) => [Click here to visit github](http://www.github.com)
 * > img: \!\[MarkDown Mark\](Markdown-mark.png) =>![MarkDown Mark](Markdown-mark.png)
 ### *** Create Anchor In Markdown***
 - > We can create anchor link to different section(heading)
@@ -69,13 +69,14 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
    >0|\[Bold](\#bold)
    
 - > Index| Syntax|  
-  > :------:|-----:|
+  > :------:|-----:|   
   > 0|[Bold](#bold)
   > 1|[Italic](#italic)
   > 2|[Quotes](#quotes)
   > 3|[Emphasis](#emphasis)
   > 4|[Strikethrough](#strikethrough)
   > 5|[Headers](#headers)
+
 ----------------------------------
 ### Reference Link:
 >[1]  [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)   
