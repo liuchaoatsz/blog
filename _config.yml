@@ -3,5 +3,5 @@ description:
 show_downloads: false
 theme: jekyll-theme-hacker
 include:
-    - 0_parcelFromUppsalaSweden.md
+    - parcelFromUppsalaSweden.md
     - GettingStartWithMarkDown.md
