@@ -1,12 +1,7 @@
 ---
-
-
-
-
 ---
 
-@import "jekyll-theme-modernist";
-
+@import "{{ site.theme }}";
 
 header {
   display: none;
