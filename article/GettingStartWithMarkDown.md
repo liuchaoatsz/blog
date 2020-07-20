@@ -2,22 +2,29 @@
 # Getting Started with MarkDown        
 ---
 # Getting Started with MarkDown 
-[<<Home](../index.md)
+[__<<Home__](../index.md)
 
-MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within your text to control text format.
+MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within text to control text format.
 
-***bold***  
-- \*\*Bold\*\* => **Bold**
+### ***Bold***
+- > \*\*Bold\*\* => **Bold**
   
-***Italic***   
--  \*Italic\*  =>  *Italic*
+### ***Italic***   
+- > \*Italic\*  =>  *Italic*
 
-***Quotes***
+### ***Quotes***
 - \> Quotes:One apple a day , keeps doctor away.
-   > Quotes: One apple a day , keeps doctor away.May be the quotation is too long but doesn't matter . You don't need to add ">" before each line.
+   > Quotes: One apple a day , keeps doctor away.Perhaps the quotation is too long ,but it is no need to  add ">" before every line,Because the MarkDown engine will treat it as a block . Just like this .
 
+### ***Emphasis***
+- \__Emphasis__ => __Emphasis__
+- \*\*Emphasis\*\* => **Emphasis**
 
-***Headers***  
+### ***Strikethrough***
+- > With two tildes: \
+~\~Strikethrough~\~ => ~~Strikethrough~~
+
+### ***Headers***  
   - > \# Header1 
     > # Header1
   - >\## Header2
@@ -27,32 +34,51 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within y
   - >\###### Header6
     > ###### Header6
 
-***Add code block***   
+### ***Combo box***    
+- > \- [x] This is a complete item 
+  > - [x] This is a complete item   
 
->''' c++
-if(isAweSome){
-        return true;
-    }
-'''
- or
->     if(isAweSome){
->           return true;
->     }
+- >  \- [ ] This is a incomplete item 
+  > - [ ] This is a incomplete item 
 
-***Combo box***    
-> \- [x] This is a complete item 
-> - [x] This is a complete item   
+### ***link***
+- > url: \[Click here to visit google]\(www.google.com) => [Click here to visit google](www.google.com)
+* > img: \!\[MarkDown Mark\](Markdown-mark.png) =>![MarkDown Mark](Markdown-mark.png)
+### *** Create Anchor In Markdown***
+- > We can create anchor link to different section(heading)
+- > - \[jump to heading](#getting-started-with-markdown) =>[jump to heading](#getting-started-with-markdown)
 
->  \- [ ] This is a incomplete item 
-> - [ ] This is a incomplete item 
+### ***Table***
+- Table1
+- > Index\| Syntax|  
+  >__\:------\|-----\|__\
+  >0\|\[Bold](\#bold)
 
+- > Index| Syntax|  
+  > :------|-----|
+  > 0|[Bold](#bold)
+  > 1|[Italic](#italic)
+  > 2|[Quotes](#quotes)
+  > 3|[Emphasis](#emphasis)
+  > 4|[Strikethrough](#strikethrough)
+  > 5|[Headers](#headers)
 
-
-
-
-
-
-
-
-Reference Link: 
-[1]  [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+- Table2        
+ > Index\| Syntax \
+ > __\:------:|-----:__ \
+ >0|\[Bold](\#bold)
+ >
+ >---------------------   
+- > Index| Syntax|  
+  > :------:|-----:|
+  > 0|[Bold](#bold)
+  > 1|[Italic](#italic)
+  > 2|[Quotes](#quotes)
+  > 3|[Emphasis](#emphasis)
+  > 4|[Strikethrough](#strikethrough)
+  > 5|[Headers](#headers)
+----------------------------------
+### Reference Link:
+>[1]  [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)\
+[2]  [Github README Anchor Links](https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading)\
+[3]  [Getting Started With Markdown](https://github.com/fefong/markdown_readme)
