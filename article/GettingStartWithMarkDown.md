@@ -21,7 +21,7 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
 - \*\*Emphasis\*\* => **Emphasis**
 
 ### ***Strikethrough***
-- > With two tildes: \
+- > With two tildes:   
 ~\~Strikethrough~\~ => ~~Strikethrough~~
 
 ### ***Headers***  
@@ -51,7 +51,7 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
 ### ***Table***
 - Table1
 - > Index\| Syntax|  
-  >__\:------\|-----\|__\
+  >__\:------\|-----\|__  
   >0\|\[Bold](\#bold)
 
 - > Index| Syntax|  
@@ -64,11 +64,10 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
   > 5|[Headers](#headers)
 
 - Table2        
- > Index\| Syntax \
- > __\:------:|-----:__ \
- >0|\[Bold](\#bold)
- >
- >---------------------   
+ - > Index\| Syntax  
+   > __\:------:|-----:__  
+   >0|\[Bold](\#bold)
+   
 - > Index| Syntax|  
   > :------:|-----:|
   > 0|[Bold](#bold)
@@ -79,6 +78,6 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
   > 5|[Headers](#headers)
 ----------------------------------
 ### Reference Link:
->[1]  [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)\
-[2]  [Github README Anchor Links](https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading)\
+>[1]  [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)   
+[2]  [Github README Anchor Links](https://gist.github.com/rachelhyman/b1f109155c9dafffe618#real-cool-heading)   
 [3]  [Getting Started With Markdown](https://github.com/fefong/markdown_readme)
