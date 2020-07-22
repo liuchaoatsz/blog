@@ -1,7 +1,7 @@
 # IAR RISC-V GD32V EAL-board overview
 
 
- ![board overview](boardoverview.png)
+ ![board overview](boardoverview.PNG)
 <br/>
  
 |Device|Ref. Peripheral|
