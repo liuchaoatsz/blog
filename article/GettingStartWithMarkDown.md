@@ -41,7 +41,7 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
 - >  \- [ ] This is a incomplete item 
   > - [ ] This is a incomplete item 
 
-### ***link***
+### ***Link***
 - > url: \[Click here to visit github]\(www.github.com) => [Click here to visit github](http://www.github.com)
 * > img: \!\[MarkDown Mark\](Markdown-mark.png) =>![MarkDown Mark](Markdown-mark.png)    
 
@@ -63,6 +63,10 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
   > 3|[Emphasis](#emphasis)
   > 4|[Strikethrough](#strikethrough)
   > 5|[Headers](#headers)
+  > 6|[Combo box](#combo-box)
+  > 7|[Link](#link)
+  > 8|[Create Anchor In MarkDown](#create-anchor-in-markdown)
+  > 9|[Table](#table)
 
 - Table2        
  - > Index\| Syntax  
@@ -77,6 +81,12 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
   > 3|[Emphasis](#emphasis)
   > 4|[Strikethrough](#strikethrough)
   > 5|[Headers](#headers)
+  > 6|[Combo box](#combo-box)
+  > 7|[Link](#link)
+  > 8|[Create Anchor In MarkDown](#create-anchor-in-markdown)
+  > 9|[Table](#table)
+
+
 
 ----------------------------------
 ### Reference Link:
