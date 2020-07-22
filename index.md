@@ -11,10 +11,15 @@
  - IAR RISC-V Evaluation Kit
     - [Parcel From Uppsala Sweden](article/01_ParcelFromUppsalaSweden/ParcelFromUppsalaSweden.md)
     - [Evaluation Board Overview](article/02_Evaluation_Board_Overview/EvaluationBoardOverview.md)
-    - [Peripherals](aritcle/03_Peripherals/03_Peripherals.md)
-    - [RISC-V Core](aritcle/04_RISC_V_CORE/04_RISC_V_Core.md)
-
-
+    - Peripherals
+        - Clock tree
+        - RTC/GPIO
+        - UART
+        - Timers/PWM
+        - ADC
+        - DAC
+        - SPI/I2C 
+    - [RISC-V Core](article/04_RISC_V_CORE/04_RISC_V_Core.md)
 
 
 
