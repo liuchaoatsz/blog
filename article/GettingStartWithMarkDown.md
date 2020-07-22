@@ -45,7 +45,7 @@ MarkDown: Its syntax is very simple.Using some non-alphabetic charaters within t
 - > url: \[Click here to visit github]\(www.github.com) => [Click here to visit github](http://www.github.com)
 * > img: \!\[MarkDown Mark\](Markdown-mark.png) =>![MarkDown Mark](Markdown-mark.png)    
 
-### *** Create Anchor In Markdown***
+### *** Create Anchor In Markdown ***
 - > We can create anchor link to different section(heading)
 - > - \[jump to heading](#getting-started-with-markdown) =>[jump to heading](#getting-started-with-markdown)
 
