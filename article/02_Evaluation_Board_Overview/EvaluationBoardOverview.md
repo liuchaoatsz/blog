@@ -1,4 +1,4 @@
-# IAR RISC-V GD32V EAL-board overview
+# IAR RISC-V GD32V EVAL-board overview
 
 
  ![board overview](boardoverview.PNG)
@@ -6,19 +6,20 @@
  
 |Device|Ref. Peripheral|
 |---|---|
-|GigaDevice GD32V103RBT8
-Osemi SPI Flash|SPI1|
-Sensirion Temp/Humidity Sensor|I2C shared with [3]|
-Nexperial Accelerometer|I2C shared with [2]|
-Mic|ADC01_IN8(PB0)|
-Earbud Jack|DAC_OUT0/DAC_OUT1/ADC01_IN0(PA0)|
-Potentiometer|ADC01_IN1(PA1)|
-Light Sensor|ADC01_IN11(PC1)|
-Tri-Color LED|PWM|
-USB Serial|UART|
-32768Hz XTAL|RTC
-Debug |JTAG|
-Trace |NA|
+|GigaDevice GD32V103RBT8|
+|Osemi SPI Flash|SPI1|
+|Sensirion Temp/Humidity Sensor|I2C shared with [3]|
+|Nexperial Accelerometer|I2C shared with [2]|
+|Mic|ADC01_IN8(PB0)|
+|Earbud Jack|DAC_OUT0/DAC_OUT1/ADC01_IN0(PA0)|
+|Potentiometer|ADC01_IN1(PA1)|
+|Light Sensor|ADC01_IN11(PC1)|
+|Tri-Color LED|PWM|
+|USB Serial|UART|
+|32768Hz XTAL|RTC
+|Debug |JTAG|
+|Trace |NA|
+
 <br/>
 
   This MCU(**GD32V103RBT8**) on the Eval-board is produced by **GigaDevice Semiconductor** .It's a 32-bit MCU based on __RISC-V__ Core.Benefit from adopting __Harvard structure__,128KB Code Flash and 32KB SRAM can be operated with separate buses .Both R/W operation  is at CPU clock(HCLK,**Up to 108MHz**) speed with zero wait states.<br/>
