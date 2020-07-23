@@ -19,7 +19,8 @@
 |32768Hz XTAL|RTC
 |Debug |JTAG|
 |Trace |NA|
-
+<br/>
+> It is very strange that a comercial MCU is released without Trace function .
 <br/>
 
   This MCU(**GD32V103RBT8**) on the Eval-board is produced by **GigaDevice Semiconductor** .It's a 32-bit MCU based on __RISC-V__ Core.Benefit from adopting __Harvard structure__,128KB Code Flash and 32KB SRAM can be operated with separate buses .Both R/W operation  is at CPU clock(HCLK,**Up to 108MHz**) speed with zero wait states.<br/>
