@@ -26,8 +26,9 @@
 <br/>
 <br/>
 ----  
-## TODO List: <br/>
+## TODO List:  
 - [ ] Add comment dialog <br/>
+  
 ----  
 ## Resource Reading 
 - [X] [Structure packing](http://www.catb.org/esr/structure-packing/)<br/>
