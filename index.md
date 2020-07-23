@@ -20,13 +20,8 @@
         - DAC
         - SPI/I2C 
     - [RISC-V Core](article/04_RISC_V_CORE/04_RISC_V_Core.md)
-
-
-
-<br/>
-<br/>
-----  
-
+  
+----   
 ## TODO List:  
 - [ ] Add comment dialog <br/>
   
