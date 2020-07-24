@@ -2,6 +2,7 @@
 
 
  ![board overview](boardoverview.PNG)
+
 <br/>
  
 |Device|Ref. Peripheral|
@@ -19,7 +20,9 @@
 |32768Hz XTAL|RTC
 |Debug |JTAG|
 |Trace |NA|
+
 <br/>
+
 > It is very strange that a comercial MCU is released without Trace function .
 <br/>
 
