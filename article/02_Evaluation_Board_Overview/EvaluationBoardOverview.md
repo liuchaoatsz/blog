@@ -4,7 +4,7 @@
  ![board overview](boardoverview.PNG)
 
 <br/>
-
+ 
 |Device|Ref. Peripheral|
 |---|---|
 |GigaDevice GD32V103RBT8|
@@ -20,6 +20,7 @@
 |32768Hz XTAL|RTC
 |Debug |JTAG|
 |Trace |NA|
+
 <br/>
 
 - ## MCU
