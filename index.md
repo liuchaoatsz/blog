@@ -7,7 +7,7 @@
     - [Parcel From Uppsala Sweden](article/01_ParcelFromUppsalaSweden/ParcelFromUppsalaSweden.md)
     - [Evaluation Board Overview](article/02_Evaluation_Board_Overview/EvaluationBoardOverview.md)
     - Peripherals
-        - [Clock Tree](article/03_Peripherals/ClockTree\ClockTree.md)
+        - [Clock Tree](article/03_Peripherals/ClockTree/ClockTree.md)
         - RTC/GPIO
         - UART
         - Timers/PWM
