@@ -29,7 +29,7 @@
   This MCU(**GD32V103RBT8**) on the Eval-board is produced by **GigaDevice Semiconductor** .It's a 32-bit MCU based on __Bumblebee__ (A core based on RISC-V ISA provided by __Nucleisys__) .Benefit from adopting __Harvard structure__,128KB Code Flash and 32KB SRAM can be operated with separate buses .Both R/W operation  is at CPU clock(HCLK,**Up to 108MHz**) speed with zero(0-2) wait states.<br/>
 
 -  GD32VF103 system architecture<br/>    
- ![system arhitecture](GD32V103_SYSTEM_ARCHITECTURE.png)
+ ![system arhitecture](GD32V103_SYSTEM_ARCHITECTURE.PNG)
     
   As a general-purpose MCU , it is integrated with plentiful peripherals ,Including: **Timers**/**Watchdog**/**RTC**/**U(S)ART**/**I2C**/**SPI**/**I2S**/**CAN**/**USBFS**/**ADC**/**DAC**/**EXTI**.<br/>
   In the next serveral days , I will try to those peripherals one by one.  <br/>
