@@ -7,7 +7,7 @@
     - [Parcel From Uppsala Sweden](article/01_ParcelFromUppsalaSweden/ParcelFromUppsalaSweden.md)
     - [Evaluation Board Overview](article/02_Evaluation_Board_Overview/EvaluationBoardOverview.md)
     - Peripherals
-        - Clock tree
+        - [Clock Tree](article/03_Peripherals/ClockTree\ClockTree.md)
         - RTC/GPIO
         - UART
         - Timers/PWM
@@ -23,3 +23,8 @@
 ----  
 ## Resource Reading 
 - [X] [Structure packing](http://www.catb.org/esr/structure-packing/)<br/>
+
+
+
+## Note
+- [CC26x2 project create](article/Note/1_CC26x2_IAR_project_creation.md)
