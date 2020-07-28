@@ -1,10 +1,10 @@
 # IAR RISC-V GD32V EVAL-board overview
 
-
+- ## Eval Board
  ![board overview](boardoverview.PNG)
 
 <br/>
- 
+
 |Device|Ref. Peripheral|
 |---|---|
 |GigaDevice GD32V103RBT8|
@@ -20,17 +20,22 @@
 |32768Hz XTAL|RTC
 |Debug |JTAG|
 |Trace |NA|
-
 <br/>
 
-> It is very strange that a comercial MCU is released without Trace function .
+- ## MCU
+> It is very strange that a comercial MCU is released without Trace function . Although the trace function is not used as frequently as debug.
 <br/>
 
-  This MCU(**GD32V103RBT8**) on the Eval-board is produced by **GigaDevice Semiconductor** .It's a 32-bit MCU based on __RISC-V__ Core.Benefit from adopting __Harvard structure__,128KB Code Flash and 32KB SRAM can be operated with separate buses .Both R/W operation  is at CPU clock(HCLK,**Up to 108MHz**) speed with zero wait states.<br/>
+  This MCU(**GD32V103RBT8**) on the Eval-board is produced by **GigaDevice Semiconductor** .It's a 32-bit MCU based on __Bumblebee__ (A core based on RISC-V ISA provided by __Nucleisys__) .Benefit from adopting __Harvard structure__,128KB Code Flash and 32KB SRAM can be operated with separate buses .Both R/W operation  is at CPU clock(HCLK,**Up to 108MHz**) speed with zero(0-2) wait states.<br/>
+
+>  GD32VF103 system architecture
+>  ![System Architecture](GD32V103_SYSTEM_ARCHITECTURE.png)
+
+
   As a general-purpose MCU , it is integrated with plentiful peripherals ,Including: **Timers**/**Watchdog**/**RTC**/**U(S)ART**/**I2C**/**SPI**/**I2S**/**CAN**/**USBFS**/**ADC**/**DAC**/**EXTI**.<br/>
   In the next serveral days , I will try to those peripherals one by one.  <br/>
 
-- Reference Document:
+## Reference Document:
    >- [GD32F103_Datasheet_Rev_1.2.pdf](GD32VF103_Datasheet_Rev_1.2.pdf)<br/>
    >- [Getting Started Guide IAR RISC-V GD32V Evaluation board.pdf](./Getting%20Started%20Guide%20IAR%20RISC-V%20GD32V%20Evaluation%20board.pdf)<br/>  
    >- [IAR RISC-V GD32V Eval Schematics.pdf](IAR%20RISC-V%20GD32V%20Eval%20Schematics.pdf)<br/>
