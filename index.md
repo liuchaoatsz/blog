@@ -8,7 +8,7 @@
     - [Evaluation Board Overview](article/02_Evaluation_Board_Overview/EvaluationBoardOverview.md)
     - Peripherals
         - [Clock Tree](article/03_Peripherals/ClockTree/ClockTree.md)
-        - RTC/GPIO
+        - [RTC](article/03_Peripherals/RTC_GPIO/Gpio_Rtc.md)/[GPIO](article/03_Peripherals/RTC_GPIO/Gpio.md)
         - UART
         - Timers/PWM
         - ADC
